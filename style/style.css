@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body{
+    font-family: 'Amatic SC', cursive;
+    margin:0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.div{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+
+}
+button, input{
+    font-family: 'Amatic SC', cursive;
+}
+input{
+    font-size: 22px;
+}
+
+
+
+
+/*Шапка сайта*/
+.header{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    min-width: 1000px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo{
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+.buttons{
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    top: -5px;
+}
+
+.button_GKO{
+    margin-right: 30px;
+    color: white;
+    display: inline-block;
+}
+.telephonenumber{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    margin: 0 30px;
+    position: relative;
+    top: -5px;
+} 
+/*Container*/
+.container{
+    min-width: 1000px;
+    text-align: center;
+}
+
+
+
+
+/*Главный Текст и кнопка каталога*/
+.glavtext{
+    width: 950px;
+    background-color: black;
+    color: white;
+    height: 450px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.text{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    font-size: 40px;
+    position: relative;
+    top: -30%;
+    left: 1%;
+}
+.imgtext{
+    display: inline-block;
+}
+.img_index{
+    height: 450px;
+    width: 350px;
+    margin-left: 50px;
+    position: relative;
+    left: 100px;
+}
+.baner_sl{
+    font-family: 'Amatic SC', cursive;
+    background-color: #000000;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    width: 950px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+
+/*рекомендации*/
+.ZL{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.Towar{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;    
+    color: black;
+    margin-left: 20px;
+}
+.Towar:hover{
+    color: rgba(0, 0, 0, 0.781);
+}
+.VeryGOODShap{
+    position: relative;
+    margin-left: -20px;
+    text-align: center;
+}
+.Number{ 
+    font-size: 30px;
+    color: red;
+}
+.Name{
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+.towar_info{
+    margin-top: 350px;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+}
+/*Почему мы?*/
+.whatmezg{
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    display: inline-block;
+    padding: 10px 0px;
+    width: 700px;
+    text-align: center;
+}
+.onepr{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.twopr{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    margin: 0px 15px;
+    display: inline-block;
+}
+.threpr{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.fourpr{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    width: 700px;
+    padding-top: 25px;
+    height: 75px;
+    display: inline-block;
+}
+/*Кто мы?*/
+.WhatI{
+    background-color: black;
+    color: white;
+    width: 650px;
+    padding: 20px 150px;
+    display: inline-block;
+    font-size: 40px;
+}
+.whatizg{
+    font-size: 50px;
+}
+
+/*каталог*/
+.Shap{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+
+
+
+/*Товар*/
+.slider{
+    position: relative;
+    top: -126px;
+    width: 400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    box-shadow: 0px 0px 10px #000000;
+}
+#left{
+    color: #0087F5;
+    font-size: 40px;
+    position: relative;
+    left: -40%;
+    top: 40%;
+}
+#right{
+    color: #0087F5;
+    font-size: 40px;
+    position: relative;
+    right: -40%;
+    top: 40%;
+}
+.haracter{
+    text-align: center;
+    display: inline-block;
+    background-color: #000000;
+    height: 300px;
+    padding: 10px;
+    margin: 0px 5px;
+    font-size: 21px;
+    width: 200px;
+    color: white;
+
+}
+.haracter1{
+    text-align: center;
+    display: inline-block;
+    background-color: #000000;
+    height: 600px;
+    width: 400px;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 21px;
+    position: relative;
+    top: 25px;
+
+}  
+.btn{
+    position: relative;
+    top: 30%;
+    width: 140px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0 10px #00d8f5;
+    color: #0087F5;
+    height: 50px;
+    padding: 10px;
+}
+.btnCart{
+    position: relative;
+    top: 30%;
+    width: 140px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0 10px #00d8f5;
+    color: #0087F5;
+    height: 50px;
+    padding: 10px;
+}
+.opisan{
+    height: 400px;
+    width: 400px;
+}
+.NameHaracter{
+    width: 100%;
+    height: 10%;
+}
+.Price{
+    width: 100%;
+    height: 10%;
+}
+
+
+
+
+
+/*корзина*/
+.cart{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.CartObj{
+    background-color: #000000;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    width: 800px;
+    margin-top: 5px;
+    display: inline-block;
+    border-left: 8px rgb(139, 19, 19) solid;
+    border-right: 8px rgb(139, 19, 19) solid;
+
+}
+.nameCart{
+    display: inline-block;
+    position: relative;
+    top: -40%;
+    width: 240px;
+    left: -13%;
+
+}
+.Kol-Vo{
+    display: inline-block;
+    position: relative;
+    top: -37%;
+    left: -13%;
+    }
+.pricecart{
+    display: inline-block;
+    position: relative;
+    top: -40%;
+    width: 70px;
+    left: -3%;
+}
+.imgCart{
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    position: relative;
+    left: -16.7%;
+}
+.Kol-Vo-Number{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: rgb(201, 201, 201) 1px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.MIN{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: rgb(59, 59, 59) 1px solid;
+    padding: 0px;
+    width: 30px;
+    height: 32px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: -1px;
+}
+.PLU{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: rgb(255, 0, 0) 1px solid;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}
+.PLU:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.MIN:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.Kol-Vo-Number:hover{
+    background-color: rgb(201, 201, 201);
+    color: white;
+}
+.garbich{
+    display: inline-block;
+    color: black;
+    border: rgb(139, 19, 19) 1px solid;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    left: 5%;
+    top: -35%;
+}
+.garbich:hover{
+    background-color: rgb(139, 19, 19);
+}
+.ZK{
+    background-color: #000000;
+    text-align: center;
+    display: inline-block;
+    border-left: 8px rgb(139, 19, 19) solid;
+    border-right: 8px rgb(139, 19, 19) solid;
+    padding: 10px 0;
+    width: 800px;
+    color: white;
+    position: relative;
+}
+.price{
+    font-size: 35px;
+}
+.PriceButton{
+    color: white;
+    border: 1px red solid;
+    padding: 5px;
+    background-color: red;
+    font-size: 30px;
+    border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*доставка*/
+#PersonDATA{
+    display: inline-block;
+    background-color: #000000;
+    padding: none;
+    width: 400px;
+    box-shadow: 0 0 8px #000000;
+    border-radius: 5px;
+    color: white;
+}
+.input_form{
+    width: 308px;
+    height: 30px;
+    margin: 1px 0px;
+    border: none;
+    box-shadow: 0 0 15px #3ba7ff;
+}
+.PersonHome{
+    width: 100px;
+}
+.PersonKV{
+    width: 100px;
+}
+.PersonPod{
+    width: 100px;
+}
+.PriceButtonForm{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width:200px;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ObrForm{
+    background-color: #000000;
+    display: inline-block;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000000;
+
+}
+
+/*боттом и контент*/
+.content{
+    min-height: 100%;
+}
+.contentKatalog{
+    min-height: 1080px;
+}
+.bottom{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-size: 40px;
+}
+.nember_telephon_bottom{
+    width: 20%;
+    padding: 65px 0;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    left: -4.5%;
+}
+.OOO_bottom{
+    position: relative;
+    padding: 65px 0;
+    width: 20%;
+    display: inline-block;
+    right: -4%;
+}
+
+@media screen and (max-width:1000px) {
+    /*ШАПКА*/
+    .header{
+        min-width: 500px;
+        padding-bottom: 30px;
+    }
+    .buttons{
+        margin-left: -40px;
+        margin-top: 10px;
+        display: block;
+    }
+    .button_GKO{
+        margin-left: 40px;
+    }
+    .telephonenumber{
+        display: none;
+    }
+    /*contauner*/
+    .container{
+        min-width: 500px;
+    }
+    .baner_sl{
+        width: 500px;
+    }
+
+    .glavtext{
+        width: 500px;
+    }
+    .img_index{
+        display: none;
+    }
+    .text{
+        top: 25%;
+    }
+
+
+    .whatmezg{
+        width: 500px;
+    }
+    .fourpr{
+        width: 500px;
+    }
+    .onepr{
+        width: 150px;
+        height: 90px;
+        font-size: 25px;
+    }
+    .threpr{
+        width: 150px;
+        height: 90px;
+        font-size: 25px;
+    }
+    .twopr{
+        width: 150px;
+        height: 90px;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+
+    .WhatI{
+        background-color: black;
+        color: white;
+        width: 400px;
+        padding: 20px 50px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .whatizg{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+

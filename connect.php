@@ -1,0 +1,1 @@
+<?php $mysql = new mysqli('localhost', 'mysql', 'mysql', 'towars'); ?>
